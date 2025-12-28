@@ -4,7 +4,7 @@ A Retrieval-Augmented Generation (RAG) chatbot that extracts content from any we
 
 ---
 
-**## 🚀 Features**
+**#🚀 Features**
 
 - 🔗 Accepts any public webpage URL
 - 🧠 Extracts and cleans page content using BeautifulSoup
@@ -16,7 +16,7 @@ A Retrieval-Augmented Generation (RAG) chatbot that extracts content from any we
 
 ---
 
-**## 🧰 Tech Stack**
+**#🧰 Tech Stack**
 
 | Component        | Tool/Library                          |
 |------------------|---------------------------------------|
@@ -29,7 +29,7 @@ A Retrieval-Augmented Generation (RAG) chatbot that extracts content from any we
 
 ---
 
-**## 📁 Project Structure**
+**#📁 Project Structure**
 
 chatbot-audio-to-answer/
 │
@@ -41,7 +41,7 @@ chatbot-audio-to-answer/
 ├── .gitignore          # Ignores .env, venv, pycache
 └── README.md                      # You're reading it!
 
-**## 🔑 Hugging Face Setup**
+**#🔑 Hugging Face Setup**
 
 1. Create an account at [huggingface.co](https://huggingface.co)
 2. Go to [Settings → Access Tokens](https://huggingface.co/settings/tokens)
@@ -51,7 +51,7 @@ chatbot-audio-to-answer/
    HF_TOKEN=hf_your_token_here
 
    
-**## ⚙️ Installation**
+**#⚙️ Installation**
 
 # Clone the repo
 git clone https://github.com/soumya14/chatbot-audio-to-answer.git
@@ -65,7 +65,7 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
 
-**## 🧪 How to Use**
+**#🧪 How to Use**
 
 # Run the pipeline
 python model.py
@@ -78,7 +78,7 @@ Enter your question (e.g. "What is the birth place of Sachin Tendulkar?")
 
 Get a grounded answer based on the page content
 
-**## 🧼 Cleaning Logic**
+**#🧼 Cleaning Logic**
 
 The system automatically removes:
 
@@ -88,14 +88,14 @@ Boilerplate like Subscribe, Advertisement, etc.
 
 Truncated or irrelevant content
 
-**## 📌 Notes**
+**#📌 Notes**
 This project uses Hugging Face’s hosted LLMs via InferenceClient
 
 Responses are grounded in retrieved context only
 
 If the answer is not found, the model replies: "Not enough information."
 
-**##📄 License**
+**#📄 License**
 This project is licensed under the MIT License. Feel free to fork, modify, and build upon it.
 
 🙌 Credits
